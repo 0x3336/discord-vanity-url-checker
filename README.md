@@ -5,7 +5,7 @@ This script is used to check the validity of a list of Discord invite URLs. The 
 ## Usage
 
 1. In the same directory as the script, create a text file named "urls.txt" and add each Discord invite URL that you want to check on a new line.
-2. Run the script by executing the command `python scriptname.py`.
+2. Run the script by executing the command `python main.py`.
 3. The script will output the status of each URL in the form of:
   * `{Fore.GREEN}{url}{Style.RESET_ALL} - Valid URL` : URL is valid
   * `{Fore.YELLOW}{url}{Style.RESET_ALL} - Taken URL` : URL is already used
